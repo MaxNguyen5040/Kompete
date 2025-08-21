@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B51FC5B92E0F5F3400440752 /* Reccomendations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51FC5B82E0F5F3400440752 /* Reccomendations.swift */; };
+		B52A7A7B2D77DBED00BF110E /* PoseDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52A7A7A2D77DBED00BF110E /* PoseDetector.swift */; };
+		B52A7A7F2D7A2E5500BF110E /* VideoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52A7A7E2D7A2E5500BF110E /* VideoPicker.swift */; };
+		B52A7A812D7B803800BF110E /* JumpAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52A7A802D7B803800BF110E /* JumpAnalyzer.swift */; };
+		B52A7A832D7B9A4400BF110E /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52A7A822D7B9A4400BF110E /* VideoPlayer.swift */; };
+		B52A7A852D7B9D7F00BF110E /* SprintAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52A7A842D7B9D7F00BF110E /* SprintAnalyzer.swift */; };
+		B5551CAC2D4813AC0041B084 /* Kompete_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5551CAB2D4813AC0041B084 /* Kompete_AppApp.swift */; };
+		B5551CAE2D4813AC0041B084 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5551CAD2D4813AC0041B084 /* ContentView.swift */; };
+		B5551CB02D4813AD0041B084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5551CAF2D4813AD0041B084 /* Assets.xcassets */; };
+		B5551CB32D4813AD0041B084 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5551CB22D4813AD0041B084 /* Preview Assets.xcassets */; };
+		B5551CBD2D4813AD0041B084 /* Kompete_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5551CBC2D4813AD0041B084 /* Kompete_AppTests.swift */; };
+		B5551CC72D4813AD0041B084 /* Kompete_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5551CC62D4813AD0041B084 /* Kompete_AppUITests.swift */; };
+		B5551CC92D4813AD0041B084 /* Kompete_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5551CC82D4813AD0041B084 /* Kompete_AppUITestsLaunchTests.swift */; };
+		B5551CD62D48145F0041B084 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5551CD52D48145E0041B084 /* TestView.swift */; };
+		B5551CDA2D4814D30041B084 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5551CD92D4814D30041B084 /* HomeView.swift */; };
+		B5551CDC2D4814EE0041B084 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5551CDB2D4814EE0041B084 /* SettingsView.swift */; };
+		B5551CDE2D4814FF0041B084 /* ProgramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5551CDD2D4814FF0041B084 /* ProgramView.swift */; };
+		B5551CE02D4815180041B084 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5551CDF2D4815180041B084 /* ProfileView.swift */; };
+		B5551CE32D481DC10041B084 /* CalendarKit in Frameworks */ = {isa = PBXBuildFile; productRef = B5551CE22D481DC10041B084 /* CalendarKit */; };
+		B5551CE52D4830940041B084 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5551CE42D4830940041B084 /* ImagePicker.swift */; };
+		B5BE367A2DA475000049C49A /* SquatAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BE36792DA475000049C49A /* SquatAnalyzer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5551CB92D4813AD0041B084 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5551CA02D4813AC0041B084 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5551CA72D4813AC0041B084;
+			remoteInfo = "Kompete-App";
+		};
+		B5551CC32D4813AD0041B084 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5551CA02D4813AC0041B084 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5551CA72D4813AC0041B084;
+			remoteInfo = "Kompete-App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B51FC5B72E0F5F2200440752 /* Untitled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Untitled.swift; sourceTree = "<group>"; };
+		B51FC5B82E0F5F3400440752 /* Reccomendations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reccomendations.swift; sourceTree = "<group>"; };
+		B52A7A7A2D77DBED00BF110E /* PoseDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseDetector.swift; sourceTree = "<group>"; };
+		B52A7A7E2D7A2E5500BF110E /* VideoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPicker.swift; sourceTree = "<group>"; };
+		B52A7A802D7B803800BF110E /* JumpAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpAnalyzer.swift; sourceTree = "<group>"; };
+		B52A7A822D7B9A4400BF110E /* VideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
+		B52A7A842D7B9D7F00BF110E /* SprintAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintAnalyzer.swift; sourceTree = "<group>"; };
+		B5551CA82D4813AC0041B084 /* Kompete-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kompete-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5551CAB2D4813AC0041B084 /* Kompete_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kompete_AppApp.swift; sourceTree = "<group>"; };
+		B5551CAD2D4813AC0041B084 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B5551CAF2D4813AD0041B084 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5551CB22D4813AD0041B084 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B5551CB82D4813AD0041B084 /* Kompete-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kompete-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5551CBC2D4813AD0041B084 /* Kompete_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kompete_AppTests.swift; sourceTree = "<group>"; };
+		B5551CC22D4813AD0041B084 /* Kompete-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kompete-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5551CC62D4813AD0041B084 /* Kompete_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kompete_AppUITests.swift; sourceTree = "<group>"; };
+		B5551CC82D4813AD0041B084 /* Kompete_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kompete_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B5551CD52D48145E0041B084 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		B5551CD92D4814D30041B084 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B5551CDB2D4814EE0041B084 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B5551CDD2D4814FF0041B084 /* ProgramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramView.swift; sourceTree = "<group>"; };
+		B5551CDF2D4815180041B084 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B5551CE42D4830940041B084 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		B5551CE62D4831C50041B084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B5BE36792DA475000049C49A /* SquatAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquatAnalyzer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5551CA52D4813AC0041B084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5551CE32D481DC10041B084 /* CalendarKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5551CB52D4813AD0041B084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5551CBF2D4813AD0041B084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5551C9F2D4813AC0041B084 = {
+			isa = PBXGroup;
+			children = (
+				B5551CAA2D4813AC0041B084 /* Kompete-App */,
+				B5551CBB2D4813AD0041B084 /* Kompete-AppTests */,
+				B5551CC52D4813AD0041B084 /* Kompete-AppUITests */,
+				B5551CA92D4813AC0041B084 /* Products */,
+				B51FC5B72E0F5F2200440752 /* Untitled.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		B5551CA92D4813AC0041B084 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5551CA82D4813AC0041B084 /* Kompete-App.app */,
+				B5551CB82D4813AD0041B084 /* Kompete-AppTests.xctest */,
+				B5551CC22D4813AD0041B084 /* Kompete-AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5551CAA2D4813AC0041B084 /* Kompete-App */ = {
+			isa = PBXGroup;
+			children = (
+				B5551CE62D4831C50041B084 /* Info.plist */,
+				B5551CAB2D4813AC0041B084 /* Kompete_AppApp.swift */,
+				B5551CAD2D4813AC0041B084 /* ContentView.swift */,
+				B5551CE42D4830940041B084 /* ImagePicker.swift */,
+				B5551CAF2D4813AD0041B084 /* Assets.xcassets */,
+				B5551CB12D4813AD0041B084 /* Preview Content */,
+				B5551CD52D48145E0041B084 /* TestView.swift */,
+				B5551CD92D4814D30041B084 /* HomeView.swift */,
+				B5BE36792DA475000049C49A /* SquatAnalyzer.swift */,
+				B52A7A842D7B9D7F00BF110E /* SprintAnalyzer.swift */,
+				B51FC5B82E0F5F3400440752 /* Reccomendations.swift */,
+				B52A7A802D7B803800BF110E /* JumpAnalyzer.swift */,
+				B52A7A822D7B9A4400BF110E /* VideoPlayer.swift */,
+				B5551CDF2D4815180041B084 /* ProfileView.swift */,
+				B5551CDB2D4814EE0041B084 /* SettingsView.swift */,
+				B5551CDD2D4814FF0041B084 /* ProgramView.swift */,
+				B52A7A7A2D77DBED00BF110E /* PoseDetector.swift */,
+				B52A7A7E2D7A2E5500BF110E /* VideoPicker.swift */,
+			);
+			path = "Kompete-App";
+			sourceTree = "<group>";
+		};
+		B5551CB12D4813AD0041B084 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B5551CB22D4813AD0041B084 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B5551CBB2D4813AD0041B084 /* Kompete-AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5551CBC2D4813AD0041B084 /* Kompete_AppTests.swift */,
+			);
+			path = "Kompete-AppTests";
+			sourceTree = "<group>";
+		};
+		B5551CC52D4813AD0041B084 /* Kompete-AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5551CC62D4813AD0041B084 /* Kompete_AppUITests.swift */,
+				B5551CC82D4813AD0041B084 /* Kompete_AppUITestsLaunchTests.swift */,
+			);
+			path = "Kompete-AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5551CA72D4813AC0041B084 /* Kompete-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5551CCC2D4813AD0041B084 /* Build configuration list for PBXNativeTarget "Kompete-App" */;
+			buildPhases = (
+				B5551CA42D4813AC0041B084 /* Sources */,
+				B5551CA52D4813AC0041B084 /* Frameworks */,
+				B5551CA62D4813AC0041B084 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kompete-App";
+			packageProductDependencies = (
+				B5551CE22D481DC10041B084 /* CalendarKit */,
+			);
+			productName = "Kompete-App";
+			productReference = B5551CA82D4813AC0041B084 /* Kompete-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5551CB72D4813AD0041B084 /* Kompete-AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5551CCF2D4813AD0041B084 /* Build configuration list for PBXNativeTarget "Kompete-AppTests" */;
+			buildPhases = (
+				B5551CB42D4813AD0041B084 /* Sources */,
+				B5551CB52D4813AD0041B084 /* Frameworks */,
+				B5551CB62D4813AD0041B084 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5551CBA2D4813AD0041B084 /* PBXTargetDependency */,
+			);
+			name = "Kompete-AppTests";
+			productName = "Kompete-AppTests";
+			productReference = B5551CB82D4813AD0041B084 /* Kompete-AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5551CC12D4813AD0041B084 /* Kompete-AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5551CD22D4813AD0041B084 /* Build configuration list for PBXNativeTarget "Kompete-AppUITests" */;
+			buildPhases = (
+				B5551CBE2D4813AD0041B084 /* Sources */,
+				B5551CBF2D4813AD0041B084 /* Frameworks */,
+				B5551CC02D4813AD0041B084 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5551CC42D4813AD0041B084 /* PBXTargetDependency */,
+			);
+			name = "Kompete-AppUITests";
+			productName = "Kompete-AppUITests";
+			productReference = B5551CC22D4813AD0041B084 /* Kompete-AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5551CA02D4813AC0041B084 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B5551CA72D4813AC0041B084 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					B5551CB72D4813AD0041B084 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B5551CA72D4813AC0041B084;
+					};
+					B5551CC12D4813AD0041B084 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B5551CA72D4813AC0041B084;
+					};
+				};
+			};
+			buildConfigurationList = B5551CA32D4813AC0041B084 /* Build configuration list for PBXProject "Kompete-App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5551C9F2D4813AC0041B084;
+			packageReferences = (
+				B5551CE12D481DAC0041B084 /* XCRemoteSwiftPackageReference "CalendarKit" */,
+			);
+			productRefGroup = B5551CA92D4813AC0041B084 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5551CA72D4813AC0041B084 /* Kompete-App */,
+				B5551CB72D4813AD0041B084 /* Kompete-AppTests */,
+				B5551CC12D4813AD0041B084 /* Kompete-AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5551CA62D4813AC0041B084 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5551CB32D4813AD0041B084 /* Preview Assets.xcassets in Resources */,
+				B5551CB02D4813AD0041B084 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5551CB62D4813AD0041B084 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5551CC02D4813AD0041B084 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5551CA42D4813AC0041B084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5551CDC2D4814EE0041B084 /* SettingsView.swift in Sources */,
+				B52A7A812D7B803800BF110E /* JumpAnalyzer.swift in Sources */,
+				B52A7A832D7B9A4400BF110E /* VideoPlayer.swift in Sources */,
+				B52A7A852D7B9D7F00BF110E /* SprintAnalyzer.swift in Sources */,
+				B5551CD62D48145F0041B084 /* TestView.swift in Sources */,
+				B5551CDA2D4814D30041B084 /* HomeView.swift in Sources */,
+				B52A7A7B2D77DBED00BF110E /* PoseDetector.swift in Sources */,
+				B51FC5B92E0F5F3400440752 /* Reccomendations.swift in Sources */,
+				B5551CAE2D4813AC0041B084 /* ContentView.swift in Sources */,
+				B5551CAC2D4813AC0041B084 /* Kompete_AppApp.swift in Sources */,
+				B5551CE52D4830940041B084 /* ImagePicker.swift in Sources */,
+				B5551CE02D4815180041B084 /* ProfileView.swift in Sources */,
+				B5551CDE2D4814FF0041B084 /* ProgramView.swift in Sources */,
+				B5BE367A2DA475000049C49A /* SquatAnalyzer.swift in Sources */,
+				B52A7A7F2D7A2E5500BF110E /* VideoPicker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5551CB42D4813AD0041B084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5551CBD2D4813AD0041B084 /* Kompete_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5551CBE2D4813AD0041B084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5551CC92D4813AD0041B084 /* Kompete_AppUITestsLaunchTests.swift in Sources */,
+				B5551CC72D4813AD0041B084 /* Kompete_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5551CBA2D4813AD0041B084 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5551CA72D4813AC0041B084 /* Kompete-App */;
+			targetProxy = B5551CB92D4813AD0041B084 /* PBXContainerItemProxy */;
+		};
+		B5551CC42D4813AD0041B084 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5551CA72D4813AC0041B084 /* Kompete-App */;
+			targetProxy = B5551CC32D4813AD0041B084 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B5551CCA2D4813AD0041B084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5551CCB2D4813AD0041B084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5551CCD2D4813AD0041B084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kompete-App/Preview Content\"";
+				DEVELOPMENT_TEAM = C43B654VY8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kompete-App/Info.plist";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Kompete needs to access your calender to put in exercises.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kompete-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5551CCE2D4813AD0041B084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kompete-App/Preview Content\"";
+				DEVELOPMENT_TEAM = C43B654VY8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kompete-App/Info.plist";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Kompete needs to access your calender to put in exercises.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kompete-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B5551CD02D4813AD0041B084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C43B654VY8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kompete.Kompete-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kompete-App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kompete-App";
+			};
+			name = Debug;
+		};
+		B5551CD12D4813AD0041B084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C43B654VY8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kompete.Kompete-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kompete-App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kompete-App";
+			};
+			name = Release;
+		};
+		B5551CD32D4813AD0041B084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C43B654VY8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kompete.Kompete-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kompete-App";
+			};
+			name = Debug;
+		};
+		B5551CD42D4813AD0041B084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C43B654VY8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kompete.Kompete-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kompete-App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5551CA32D4813AC0041B084 /* Build configuration list for PBXProject "Kompete-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5551CCA2D4813AD0041B084 /* Debug */,
+				B5551CCB2D4813AD0041B084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5551CCC2D4813AD0041B084 /* Build configuration list for PBXNativeTarget "Kompete-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5551CCD2D4813AD0041B084 /* Debug */,
+				B5551CCE2D4813AD0041B084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5551CCF2D4813AD0041B084 /* Build configuration list for PBXNativeTarget "Kompete-AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5551CD02D4813AD0041B084 /* Debug */,
+				B5551CD12D4813AD0041B084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5551CD22D4813AD0041B084 /* Build configuration list for PBXNativeTarget "Kompete-AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5551CD32D4813AD0041B084 /* Debug */,
+				B5551CD42D4813AD0041B084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B5551CE12D481DAC0041B084 /* XCRemoteSwiftPackageReference "CalendarKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/richardtop/CalendarKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.11;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B5551CE22D481DC10041B084 /* CalendarKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5551CE12D481DAC0041B084 /* XCRemoteSwiftPackageReference "CalendarKit" */;
+			productName = CalendarKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B5551CA02D4813AC0041B084 /* Project object */;
+}
