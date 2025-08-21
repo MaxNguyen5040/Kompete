@@ -278,6 +278,7 @@ struct HomeView: View {
 
         if let image = generateThumbnail(url: url) {
             self.videoThumbnail = image
+            //pushing code
         }
 
         switch selectedTestType {
